@@ -1,0 +1,19 @@
+.body__feedback-container-input {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  background: rgba(142, 142, 152, 0.20);
+  flex: 1;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 16px;
+  &:hover {
+    background: rgba(142, 142, 152, 0.30);
+  }
+  &:focus {
+    outline: none;
+  }
+
+}

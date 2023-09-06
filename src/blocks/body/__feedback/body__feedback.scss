@@ -1,0 +1,15 @@
+@use 'mixins' as *;
+
+.body__feedback {
+  @include flex-start-column;
+  @include max-container(569px);
+  gap: 12px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .body__feedback {
+    @include max-container(648px);
+    margin: 0;
+  }
+}

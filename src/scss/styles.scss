@@ -1,2 +1,16 @@
  @use '../vendor/normalize.css';
  @use '../fonts/fonts.scss';
+
+ @use '../blocks/body/body.scss';
+ @use '../blocks/body/__logo/body__logo.scss';
+ @use '../blocks/body/__logo-title/body__logo-title.scss';
+ @use '../blocks/body/__logo-badge/body__logo-badge.scss';
+ @use '../blocks/body/__feedback/body__feedback.scss';
+ @use '../blocks/body/__feedback-container/body__feedback-container.scss';
+ @use '../blocks/body/__feedback-container-input/body__feedback-container-input.scss';
+ @use '../blocks/body/__feedback-container-badge/body__feedback-container-badge.scss';
+ @use '../blocks/body/__feedback-description/body__feedback-description.scss';
+
+ @use '../blocks/header/header.scss';
+ @use '../blocks/header/__title/header__title.scss';
+ @use '../blocks/header/__subtitle/header__subtitle.scss';
