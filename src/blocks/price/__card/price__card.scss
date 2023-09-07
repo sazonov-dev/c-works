@@ -1,0 +1,25 @@
+@use "mixins" as *;
+
+.price__card {
+  box-sizing: border-box;
+  max-width: 550px;
+  width: 100%;
+  padding: 40px;
+  @include flex-start-column;
+  border-radius: 16px;
+  background: #1C1C1E;
+}
+
+@media screen and (max-width: 1120px) {
+  .price__card {
+    max-width: 648px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .price__card {
+    padding: 20px;
+    max-width: 280px;
+    min-height: 282px;
+  }
+}

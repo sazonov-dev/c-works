@@ -18,10 +18,44 @@
         <div class="body__feedback">
             <div class="body__feedback-container">
                 <input type="text" class="body__feedback-container-input" minlength="10" maxlength="100">
-                <div class="body__feedback-container-badge"><span class="badge-text">Отремонтируйте камеру</span><span class="emoji__peace">✌</span></div>
+                <button class="body__feedback-container-badge" id="repair-button"><span class="badge-text">Отремонтируйте камеру</span><span class="emoji__peace">✌</span></button>
             </div>
             <p class="body__feedback-description">Напишите нам и мы свяжемся с вами.</p>
         </div>
     </header>
+    <main class="main">
+        <section class="graphic">
+            <div class="graphic__line line-one">
+                <img class="graphic__line-img line-item-one" src="<%=require('./images/graphic/graphic-img-1.jpg')%>" alt="Фотография фотоаппарата">
+                <div class="graphic__line-item line-item-two"></div>
+            </div>
+            <div class="graphic__line line-two">
+                <div class="graphic__line-item line-item-three"></div>
+                <img class="graphic__line-img line-item-four" src="<%=require('./images/graphic/graphic-img-2.jpg')%>" alt="Фотография фотоаппарата">
+            </div>
+        </section>
+        <section class="content">
+            <p class="body__text">Мы ремонтируем плёночные фотоаппараты. Полносстью механические камеры, относительно современные камеры на электронике, проводим CLA камер, принимаем в зачёт оплаты сломаные тушки и объективы.</p>
+            <h2 class="body__title">Для энтузиастов, от энтузиастов 👈</h2>
+        </section>
+        <section class="price">
+            <div class="price__card">
+                <span class="price__card-type">CLA</span>
+                <div class="price__card-content">
+                    <h3 class="price__card-title">Чистка камер.</h3>
+                    <p class="price__card-description">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.</p>
+                    <span class="price__card-cost">от 2000₽</span>
+                </div>
+            </div>
+            <div class="price__card">
+                <span class="price__card-type">Ремонт</span>
+                <div class="price__card-content">
+                    <h3 class="price__card-title">Ремонт камер.</h3>
+                    <p class="price__card-description">Ремонт механизмов, замена деталей, пайка электроники, адаптация питания.</p>
+                    <span class="price__card-cost">от 2500₽</span>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,20 @@
+@use 'mixins' as *;
+
+.price {
+  @include max-container(1120px);
+  @include flex-start-center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+  .price {
+    @include max-container(648px);
+    @include flex-start-column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price {
+    @include max-container(280px);
+  }
+}

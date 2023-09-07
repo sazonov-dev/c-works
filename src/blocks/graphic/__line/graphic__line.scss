@@ -1,0 +1,35 @@
+@use 'mixins' as *;
+
+.graphic__line {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+
+  &.line-one {
+    grid-template-columns: 448px minmax(0, 1fr);
+  }
+
+  &.line-two {
+    grid-template-columns: minmax(0, 1fr) 730px;
+  }
+
+  .graphic__line-img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .graphic__line {
+    &.line-two {
+      grid-template-columns: minmax(0, 1fr) 455px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graphic__line {
+    @include flex-center-column;
+  }
+}

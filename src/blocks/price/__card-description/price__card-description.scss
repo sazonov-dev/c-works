@@ -1,0 +1,13 @@
+.price__card-description {
+  margin: 0;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 768px){
+  .price__card-description {
+    flex-grow: 1;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,26 @@
+.graphic__line-item {
+  border-radius: 8px;
+
+  &.line-item-two {
+    width: 100%;
+    height: 100%;
+    background-color: #FFD233;
+  }
+
+  &.line-item-three {
+    width: 100%;
+    height: 100%;
+    background-color: #25E197;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graphic__line-item {
+    &.line-item-two {
+      height: 67px;
+    }
+    &.line-item-three {
+      height: 124px;
+    }
+  }
+}

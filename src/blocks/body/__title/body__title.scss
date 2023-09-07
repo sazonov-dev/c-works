@@ -1,0 +1,20 @@
+.body__title {
+  margin: 0;
+  color: #FFF;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 1120px) {
+  .body__title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body__title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

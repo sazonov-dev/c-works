@@ -1,0 +1,22 @@
+@use 'mixins' as *;
+
+.graphic {
+  padding: 60px 0;
+  @include max-container(1380px);
+  @include flex-start-column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+  .graphic {
+    @include max-container(648px);
+    padding: 20px 0 60px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .graphic {
+    @include max-container(280px);
+    padding: 40px 0 20px 0;
+  }
+}

@@ -5,11 +5,21 @@
   @include max-container(569px);
   gap: 12px;
   margin: 0;
+  width: 100%;
+  padding-bottom: 60px;
 }
 
 @media screen and (max-width: 1120px) {
   .body__feedback {
     @include max-container(648px);
     margin: 0;
+    width: 100%;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body__feedback {
+    padding-bottom: 40px;
   }
 }

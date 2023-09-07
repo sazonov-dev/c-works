@@ -10,7 +10,23 @@
  @use '../blocks/body/__feedback-container-input/body__feedback-container-input.scss';
  @use '../blocks/body/__feedback-container-badge/body__feedback-container-badge.scss';
  @use '../blocks/body/__feedback-description/body__feedback-description.scss';
+ @use '../blocks/body/__title/body__title.scss';
+ @use '../blocks/body/__text/body__text.scss';
 
  @use '../blocks/header/header.scss';
  @use '../blocks/header/__title/header__title.scss';
  @use '../blocks/header/__subtitle/header__subtitle.scss';
+
+ @use '../blocks/graphic/graphic.scss';
+ @use '../blocks/graphic/__line/graphic__line.scss';
+ @use '../blocks/graphic/__line-item/graphic__line-item.scss';
+
+ @use '../blocks/content/content.scss';
+
+ @use '../blocks/price/price.scss';
+ @use '../blocks/price/__card/price__card.scss';
+ @use '../blocks/price/__card-type/price__card-type.scss';
+ @use '../blocks/price/__card-content/price__card-content.scss';
+ @use '../blocks/price/__card-title/price__card-title.scss';
+ @use '../blocks/price/__card-description/price__card-description.scss';
+ @use '../blocks/price/__card-cost/price__card-cost.scss';

@@ -1,19 +1,21 @@
 @use 'mixins' as *;
 
-.header {
+.content {
   @include max-container(1120px);
+  padding: 60px;
   @include flex-start-column;
-  color: #fff;
+  gap: 60px;
 }
 
 @media screen and (max-width: 1120px) {
-  .header {
-    @include max-container(678px)
+  .content {
+    @include max-container(648px);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    @include max-container(280px)
+  .content {
+    @include max-container(280px);
+    gap: 20px;
   }
 }

@@ -1,0 +1,13 @@
+@use 'mixins' as *;
+
+.price__card-content {
+  @include flex-start-column;
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .price__card-content {
+    gap: 32px;
+    flex-grow: 1;
+  }
+}
