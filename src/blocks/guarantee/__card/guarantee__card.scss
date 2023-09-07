@@ -1,0 +1,25 @@
+@use 'mixins' as *;
+
+.guarantee__card {
+  box-sizing: border-box;
+  padding: 20px;
+  @include flex-start-column;
+  gap: 38px;
+  border-radius: 10px;
+  background: #1C1C1E;
+  max-width: 265px;
+}
+
+@media screen and (max-width: 1120px) {
+  .guarantee__card {
+    max-width: 314px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .guarantee__card {
+    max-width: 280px;
+    gap: 36px;
+  }
+}

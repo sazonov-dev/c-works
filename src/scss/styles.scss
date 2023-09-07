@@ -30,3 +30,9 @@
  @use '../blocks/price/__card-title/price__card-title.scss';
  @use '../blocks/price/__card-description/price__card-description.scss';
  @use '../blocks/price/__card-cost/price__card-cost.scss';
+
+ @use '../blocks/guarantee/guarantee.scss';
+ @use '../blocks/guarantee/__cards/guarantee__cards.scss';
+ @use '../blocks/guarantee/__card/guarantee__card.scss';
+ @use '../blocks/guarantee/__card-type/guarantee__card-type.scss';
+ @use '../blocks/guarantee/__card-description/guarantee__card-description.scss';

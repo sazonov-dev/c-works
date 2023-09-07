@@ -1,0 +1,12 @@
+.guarantee__card-description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .guarantee__card-description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

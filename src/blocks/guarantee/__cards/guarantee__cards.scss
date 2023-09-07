@@ -1,0 +1,13 @@
+@use 'mixins' as *;
+
+.guarantee__cards {
+  width: 100%;
+  @include flex-start-center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .guarantee__cards {
+  }
+}

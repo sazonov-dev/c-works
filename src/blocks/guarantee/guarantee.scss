@@ -1,20 +1,21 @@
 @use 'mixins' as *;
 
-.price {
+.guarantee {
   @include max-container(1120px);
-  @include flex-start-center;
-  flex-wrap: wrap;
-  gap: 20px;
+  padding: 60px;
+  @include flex-start-column;
+  gap: 60px;
 }
 
 @media screen and (max-width: 1120px) {
-  .price {
+  .guarantee {
     @include max-container(648px);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .price {
+  .guarantee {
     @include max-container(280px);
+    gap: 20px;
   }
 }
