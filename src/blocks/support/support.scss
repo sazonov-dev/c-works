@@ -1,0 +1,19 @@
+@use 'mixins' as *;
+
+.support {
+  @include max-container(1120px);
+  padding: 60px;
+  @include flex-start-column;
+}
+
+@media screen and (max-width: 1120px) {
+  .support {
+    @include max-container(648px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .support {
+    @include max-container(280px);
+  }
+}
