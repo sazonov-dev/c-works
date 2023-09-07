@@ -2,7 +2,7 @@
 
 .guarantee {
   @include max-container(1120px);
-  padding: 60px;
+  padding: 60px 0;
   @include flex-start-column;
   gap: 60px;
 }

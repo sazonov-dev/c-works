@@ -1,0 +1,19 @@
+@use 'mixins' as *;
+
+.body__feedback-info {
+  width: 100%;
+  @include flex-center-between;
+}
+
+@media screen and (max-width: 1120px) {
+  .body__feedback-info {
+    @include flex-start-column;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body__feedback-info {
+    gap: 40px;
+  }
+}

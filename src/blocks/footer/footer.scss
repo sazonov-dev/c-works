@@ -1,21 +1,29 @@
 @use 'mixins' as *;
 
-.content {
+.footer {
+  color: #fff;
   @include max-container(1120px);
   padding: 60px 0;
   @include flex-start-column;
   gap: 60px;
+  border-top: 2px solid #151515;
+  .body__logo {
+    padding: 0;
+  }
+  .body__feedback {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1120px) {
-  .content {
+  .footer {
     @include max-container(648px);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  .footer {
     @include max-container(280px);
-    gap: 20px;
+    padding: 20px 0;
   }
 }

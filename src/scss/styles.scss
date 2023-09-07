@@ -12,6 +12,7 @@
  @use '../blocks/body/__feedback-description/body__feedback-description.scss';
  @use '../blocks/body/__title/body__title.scss';
  @use '../blocks/body/__text/body__text.scss';
+ @use '../blocks/body/__feedback-info/body__feedback-info.scss';
 
  @use '../blocks/header/header.scss';
  @use '../blocks/header/__title/header__title.scss';
@@ -39,3 +40,5 @@
 
  @use '../blocks/support/support.scss';
  @use '../blocks/support/__badge/support__badge.scss';
+
+ @use '../blocks/footer/footer.scss';

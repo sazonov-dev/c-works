@@ -2,8 +2,17 @@
 
 .body__feedback-container {
   @include flex-start;
+  @include max-container(569px);
+  margin: 0;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.375px;
   width: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+  .body__feedback-container {
+    @include max-container(569px);
+    margin: 0;
+  }
 }

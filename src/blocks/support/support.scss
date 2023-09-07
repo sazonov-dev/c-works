@@ -2,18 +2,20 @@
 
 .support {
   @include max-container(1120px);
-  padding: 60px;
+  padding: 60px 0 180px 0;
   @include flex-start-column;
 }
 
 @media screen and (max-width: 1120px) {
   .support {
+    padding: 60px 0 210px 0;
     @include max-container(648px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .support {
+    padding: 60px 0 180px 0;
     @include max-container(280px);
   }
 }
